@@ -1,0 +1,8 @@
+{
+  "name": "NexusFlow",
+  "description": "Production-ready Auditing & Assurance revision and exam preparation suite for Bharathiyar University B.Com students featuring Unit 1-5 curriculum, PYQ vault, 3D flashcards, AI tutor, and live exam readiness engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
