@@ -8,49 +8,55 @@
 </head>
 <body class="bg-slate-900 text-white min-h-screen flex flex-col items-center justify-start p-4 md:p-8">
   
-  <!-- Header & Download Controls -->
+  <!-- Header & Download Section -->
   <div class="max-w-4xl w-full bg-slate-800 p-6 rounded-2xl shadow-xl border border-slate-700 text-center mb-6">
-    <div class="w-12 h-12 bg-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">
+    <div class="w-12 h-12 bg-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-3 text-xl font-bold text-slate-900">
       📊
     </div>
     <h1 class="text-2xl md:text-3xl font-bold mb-1">NexusFlow</h1>
     <p class="text-slate-400 text-sm mb-4">B.Com Commerce & Auditing Suite for Android</p>
     
     <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
-      <a href="https://console.firebase.google.com/project/nexusflow-87b50/authentication/users?utm_source=gemini5" 
+      <!-- Direct APK Download Button -->
+      <a href="https://github.com/realphaseflow-arc/nexusflow-bcom-app/releases/download/v1/NexusFlow.apk" 
          class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-slate-900 font-bold py-2.5 px-6 rounded-xl transition-all shadow-lg text-sm">
         📲 Download APK (25.4 MB)
       </a>
+
+      <!-- Open Interactive Preview Button -->
+      <a href="https://aistudio.google.com/apps/b9510d38-f957-4e69-b773-dea4e19a822b?showPreview=true" 
+         target="_blank" 
+         class="w-full sm:w-auto bg-slate-700 hover:bg-slate-600 text-emerald-400 font-semibold py-2.5 px-6 rounded-xl transition-all border border-emerald-500/30 text-sm flex items-center justify-center gap-2">
+        <span>👁️ Launch Live Interactive App</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </a>
+
       <a href="https://github.com/realphaseflow-arc/nexusflow-bcom-app/releases/tag/v1" 
-         class="w-full sm:w-auto bg-slate-700 hover:bg-slate-600 text-white font-medium py-2.5 px-6 rounded-xl transition-all text-sm">
-        📦 View Release Details
+         class="w-full sm:w-auto bg-slate-800 hover:bg-slate-750 text-slate-300 font-medium py-2.5 px-6 rounded-xl transition-all border border-slate-700 text-sm">
+        📦 GitHub Release
       </a>
     </div>
   </div>
 
-  <!-- Embedded Live Preview Window -->
-  <div class="max-w-4xl w-full bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
-    <div class="bg-slate-750 px-4 py-3 border-b border-slate-700 flex items-center justify-between text-xs text-slate-400">
-      <span class="flex items-center gap-2">
-        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-        Live Interactive App Preview
-      </span>
-      <span>Interactive Prototype</span>
+  <!-- Interactive Demo Card -->
+  <div class="max-w-4xl w-full bg-slate-800 rounded-2xl border border-slate-700 p-8 shadow-2xl text-center">
+    <div class="w-16 h-16 bg-slate-700/50 rounded-full flex items-center justify-center mx-auto mb-4 border border-slate-600">
+      <span class="text-3xl">📱</span>
     </div>
+    <h2 class="text-xl font-bold mb-2">Test NexusFlow in Your Browser</h2>
+    <p class="text-slate-400 text-sm max-w-lg mx-auto mb-6">
+      Experience the B.Com Auditing Assistant, interactive quizzes, module guides, and practical case study simulations before installing the Android app.
+    </p>
     
-    <div class="relative w-full h-[650px] bg-slate-950">
-      <iframe 
-        src="https://aistudio.google.com/apps/b9510d38-f957-4e69-b773-dea4e19a822b?showPreview=true" 
-        class="w-full h-full border-0"
-        title="NexusFlow Web Preview"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
-    </div>
+    <a href="https://aistudio.google.com/apps/b9510d38-f957-4e69-b773-dea4e19a822b?showPreview=true" 
+       target="_blank" 
+       class="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-slate-900 font-bold py-3 px-8 rounded-xl transition-all shadow-lg text-base">
+      <span>🚀 Open Interactive Web Preview</span>
+    </a>
   </div>
 
-  <div class="mt-6 text-xs text-slate-500 text-center">
-    Designed for Bharathiar University B.Com Commerce & Auditing Students
+  <div class="mt-8 text-xs text-slate-500 text-center">
+    Designed for B.Com Commerce & Auditing Students
   </div>
 
 </body>
